@@ -1,0 +1,183 @@
+
+body {
+    background-image: linear-gradient(rgb(54, 54, 54), rgb(107, 107, 107));
+    /* background-color: rgb(107, 107, 107); */
+    padding: 10px;
+}
+
+
+.app-title {
+    text-align: center;
+    letter-spacing: 60px;
+    text-shadow: 5px -3px 5px rgb(89, 182, 89);
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(112, 228, 112);
+   
+}
+
+#cool-minerals {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 5px rgb(142, 255, 142);
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#all-minerals {
+    /* display: grid; */
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 100px;
+    grid-row-gap: 80px;
+    grid-template-columns: 50% 50%;
+    padding: 30px;
+}
+
+#create-mineral-div {
+    margin-left: 275px;
+    /* display: grid;
+    grid-column-gap: 150px;
+    grid-row-gap: 150px;
+    grid-template-columns: 50% 50%; */
+}
+
+
+#create-mineral-button {
+    /* margin-right: 1000px; */
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    border: blanchedalmond;
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(64, 21, 75);
+    color: blanchedalmond;
+    width: 330px;
+    padding: 20px;
+}
+
+#submit-btn {
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: blanchedalmond;
+    width: 200px;
+}
+
+#mineral-form {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 5px rgb(142, 255, 142);
+    font-weight: 700;
+    font-size: 20px;
+    /* background-color: blanchedalmond;
+    opacity: 30%;
+    border-radius: 5px; */
+}
+
+.comments-title {
+    text-align: center;
+    text-shadow: 0px 0px 5px rgb(255, 238, 142);
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    letter-spacing: 2px;
+}
+
+.hold-comments-div {
+    text-align: center;
+    text-shadow: 0px 0px 5px rgb(142, 255, 142);
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    letter-spacing: 2px;
+}
+
+#comment-area {
+    margin-left: 200px;
+}
+
+#comment-area-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 5px rgb(142, 255, 142);
+    font-weight: 70;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+.mineralNameH2{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-shadow: 0px 0px 5px rgb(142, 255, 142);
+}
+
+ul {
+    list-style: none;
+}
+
+
+img {
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 200px;
+    width: auto;
+    border: rgb(100, 156, 16);
+    border-style: double;
+    border-radius: 10px;
+    border-width: 8px;
+}
+
+p {
+    text-align: center;
+    width: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    opacity: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    letter-spacing: 2px;
+}
+
+#like-btn {
+    width: 300px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: auto;
+    letter-spacing: 0.8px;
+    background-color: black;
+    color: blanchedalmond;
+    border: blanchedalmond;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 0.5px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#delete-btn {
+    width: 200px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: auto;
+    letter-spacing: 0.8px;
+    background-color: black;
+    color: blanchedalmond;
+    border: blanchedalmond;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 0.5px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
